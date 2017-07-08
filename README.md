@@ -21,3 +21,7 @@ Some of the Components used:
 5.	Linear layout
 6.	Card View
 
+
+Different Screens:
+
+1)	Splash Activity:
