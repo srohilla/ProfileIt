@@ -25,3 +25,5 @@ Some of the Components used:
 Different Screens:
 
 1)	Splash Activity:
+
+![picture1](https://user-images.githubusercontent.com/20126924/27989947-b9acdea4-63fb-11e7-89f4-c6b95ac94f78.png)
