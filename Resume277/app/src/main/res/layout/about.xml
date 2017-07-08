@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/cardview_light_background">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="187dp"
+        app:srcCompat="@drawable/face"
+        android:id="@+id/imageView2" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/name"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="normal|bold"
+        android:textAllCaps="false"
+        android:fontFamily="sans-serif"
+        android:textColor="#1F618D" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:id="@+id/tagline"
+        android:textColor="#0E6655"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/detail_about"
+
+            android:textSize="24sp"
+
+            android:scrollbars="vertical"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="normal|italic"
+            android:textAlignment="center" />
+
+</LinearLayout>
+</ScrollView>

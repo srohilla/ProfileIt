@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="199dp"
+        app:srcCompat="@drawable/awards"
+        android:id="@+id/imageView3" />
+
+    <TextView
+        android:text="•	Awarded “Bon Travail” for successful on-schedule delivery of Framework Isolation project under Sopra Banking Software.
+"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/award1"
+        android:textSize="18sp" />
+</LinearLayout>

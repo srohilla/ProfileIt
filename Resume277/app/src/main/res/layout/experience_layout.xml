@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent">
+
+<LinearLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="1"
+    android:layout_marginTop="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginLeft="20dp"
+    >
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="160dp"
+        android:background="@drawable/soprasteria"
+        android:id="@+id/company1"
+        android:layout_marginBottom="20dp"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Software Engineer"
+        android:textSize="20dp"
+        android:textStyle="normal|bold"
+        android:textAllCaps="false"
+        android:fontFamily="sans-serif"
+
+        android:id="@+id/designation"
+        android:textAlignment="center"
+        android:elevation="7dp"
+        android:layout_weight="0.03"
+        android:textColor="#1F388D" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Sopra Banking Software"
+        android:textAlignment="center"
+        android:id="@+id/projectName"
+        android:layout_marginBottom="10dp"
+        android:textColor="#943126" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="(2010-2014)"
+        android:textAlignment="center"
+        android:id="@+id/duration"
+        android:layout_marginBottom="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="project description"
+
+        android:id="@+id/projectDesc"
+        />
+
+
+</LinearLayout>
+    </ScrollView>

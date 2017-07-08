@@ -1,0 +1,65 @@
+{
+  "education": [
+    {  "id":1,
+      "schoolName": "San Jose State University",
+      "description": "Distributed System, Enterprise Application Development , Enterprise Software Platform",
+      "gpa": "3.7",
+       "location":"United States",
+      "degree":"Masters of science",
+      "graduationyear":"2016-2018",
+      "specialization" :"Software Engineering",
+      "image":"R.drawable.sjsu1"
+    },
+
+    {  "id":2,
+      "schoolName": "Northern India Engineering College",
+      "description": "Software Engineering, Software Testing, Database Management Systems",
+      "gpa": "3.7",
+      "location":"India",
+      "degree":"Bachelors of Technology",
+      "graduationyear":"2010-2014",
+      "specialization" : "Computer Science and Technology",
+      "image":"R.drawable.nieccampus"},
+
+    {
+      "id":3,
+      "schoolName": "Queen Mary's School",
+      "description": "Physics , Chemistry , Maths",
+      "gpa": "3.7",
+      "location":"India",
+      "degree":"High School",
+      "graduationyear":"2007-2010",
+      "specialization" : "High School ",
+      "image":"R.drawable.qms"}
+
+   ],
+  "projects": [
+    {
+      "title": "NwSense",
+      "id":"1",
+      "url": "http://github.com/srohilla/NWSense",
+      "image":"https://www.edamam.com/web-img/341/3417c234dadb687c0d3a45345e86bff4.jpg",
+      "description": "built a website to provide a solution for accessing the configurations of home network from external network. User can block Ip address, websites and can see a detailed analysis of his home network on the website. Used Raspberry Pi as a proxy server and hosted website on AWS. The data from Raspberry Pi stored on IBM Cloudant database and web server used a set of Restful API’s to communicate.",
+      "technology": "NodeRed & Python"
+    },
+
+    {
+      "title": "Expense Management System",
+      "id":"2",
+      "url": "http://github.com/srohilla/Client-Side-Sharding",
+      "image":"https://www.edamam.com/web-img/341/3417c234dadb687c0d3a45345e86bff4.jpg",
+      "description":"An expense management application to store and update office expenses using flask built in Restful manner. Objective to explore MySQL RDBMS using Flask-SQLAlchemy. Dockerized the application and database. Implemented client side sharding using consistent hashing client.",
+      "technology": "Python & Docker"
+    },
+    {
+      "title": "Automated Class Attendance system ",
+      "id":"3",
+      "url": "http://github.com/srohilla/Attendance-Management-System",
+      "image":"https://www.edamam.com/web-img/341/3417c234dadb687c0d3a45345e86bff4.jpg",
+      "description":"Developed an automated attendance supervising system using Django in Team of 4 as a class project. It uses the BLE component of smartphones and RaspberryPi to check for the attendance. The backend server handles the business logic of tracking student attendance and also uses a set of REST APIs for mobile app and Raspberry Pi client to communicate.",
+      "technology": "Python & Android"
+    }
+
+    ]
+
+    }

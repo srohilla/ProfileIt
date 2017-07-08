@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/navface"
+            android:title="About Me" />
+        <item
+            android:id="@+id/nav_education"
+            android:icon="@drawable/ic_book_black_24dp"
+            android:title="Education" />
+        <item
+            android:id="@+id/nav_skillset"
+            android:icon="@drawable/ic_assessment_black_24dp"
+            android:title="Skill Set" />
+        <item
+            android:id="@+id/nav_experience"
+            android:icon="@drawable/ic_work_black_24dp"
+            android:title="Work Experience" />
+        <item
+            android:id="@+id/nav_projects"
+            android:icon="@drawable/github"
+            android:title="Projects" />
+        <item
+            android:id="@+id/nav_awards"
+            android:icon="@drawable/ic_stars_black_24dp"
+            android:title="Awards" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_links"
+                android:icon="@drawable/ic_link_black_24dp"
+                android:title="Social Links" />
+        </menu>
+    </item>
+
+</menu>
