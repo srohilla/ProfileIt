@@ -27,3 +27,12 @@ Different Screens:
 1)	Splash Activity:
 
 ![picture1](https://user-images.githubusercontent.com/20126924/27989947-b9acdea4-63fb-11e7-89f4-c6b95ac94f78.png)
+
+2) Welcome Fragment:
+
+![picture2](https://user-images.githubusercontent.com/20126924/27989961-0820c4a6-63fc-11e7-9e3c-cb3131f3f933.png)
+
+3) Navigation Drawer:
+
+![picture3](https://user-images.githubusercontent.com/20126924/27989964-0f05f124-63fc-11e7-96f4-ca0db3ecb4db.png)
+
